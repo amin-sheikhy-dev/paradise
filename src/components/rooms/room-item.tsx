@@ -20,8 +20,8 @@ export default function RoomItem({ roomNumber, maxGuest, price, image, id }: Roo
           </div>
 
           <div>
-            <span className='font-bold text-primary-800 dark:text-primary-200'>{price.toLocaleString('fa-IR')} $</span>
-            <span className='text-primary-800 dark:text-primary-200'> / شب</span>
+            <span className='font-bold text-primary-800 dark:text-primary-200'>{price.toLocaleString('fa-IR')}</span>
+            <span className='text-primary-800 dark:text-primary-200'> هر شب</span>
           </div>
         </div>
 

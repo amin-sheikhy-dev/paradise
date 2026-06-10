@@ -23,7 +23,7 @@ export async function editUserInformation(prevState: FormTypes, formData: FormDa
   if (!name) {
     errors.name = 'نام الزامی است';
   } else {
-    // چک می‌کنیم که فقط شامل کاراکترهای فارسی باشه
+    // چک می‌کنیم که فقط شامل کاراکتر های فارسی باشه
     const farsiChars = 'آابپتثجچحخدذرزژسشصضطظعغفقکگلمنوهی‌ ';
     let isValid = true;
 

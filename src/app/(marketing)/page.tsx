@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import mobileBg from '@/assets/bachground/mobile-bg.jpg';
+import mobileBg from '@/assets/bachground/mobile-bg.png';
 import desktopBg from '@/assets/bachground/desktop-bg.png';
 import Link from 'next/link';
 

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 import aboutImg1 from '@/assets/about/about-1.jpg';
-import aboutImg2 from '@/assets/about/about-2.jpg';
+import aboutImg2 from '@/assets/about/about-2.png';
 
 export const metadata: Metadata = {
   title: 'درباره ما',
